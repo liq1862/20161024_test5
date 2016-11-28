@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
                 Log.d("MYLOG", "chk2:" + isChecked);
             }
         });
-        rg = (RadioGroup) findViewById(R.id.radioGroup);
+        rg = (RadioGroup) findViewById(R.id.radioGroup);        //RadioGroup多選一
         rg.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
             @Override
             public void onCheckedChanged(RadioGroup group, int checkedId) {
